@@ -31,6 +31,7 @@ spring.jpa.generate-ddl=true <br />
 spring.messages.basename=messages <br />
 spring.mvc.static-path-pattern=/resources/** <br />
 spring.web.resources.static-locations=classpath:/css/,classpath:/images/ <br />
+<b>Note: Spring application created 86 beans while spring boot created 256 beans, this might add to the memory foot print. You will see all the beans created in the console logs. You may exclude the unnecessary beans in the @SpringBootApplication(exclude={...})</b> <br/>
 </td></tr>
 
 <tr><td>Application launcher class</td><td> In spring project you will see the https://github.com/mane-ashok/simple-spring-webapp-monolith/blob/main/src/main/java/org/ashok/AppLauncher.java class with some code in it ( go check it out). In spring boot project you have very simple java class class to launch the application - https://github.com/mane-ashok/simple-springboot-webapp-monolith/blob/main/src/main/java/org/ashok/springboot/SimpleSpringbootWebappMonolithApplication.java with @SpringBootApplication annotation, behind the scene the spring boot must be taking care of functionality/code like that of AppLauncher.java class in spring project, right? </td></tr>
