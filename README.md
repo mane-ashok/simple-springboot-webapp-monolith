@@ -2,8 +2,9 @@
 
 <h3> First of all watch below short video on the Spring boot internals </h3>
 
-[![spring-boot-internals](https://user-images.githubusercontent.com/93635967/226583230-4715698d-2179-4be4-a118-06a2b5d080ce.jpg)](https://youtu.be/-qO1Mm8DNOc) <br/><br/>
+[![spring-boot-internals](https://user-images.githubusercontent.com/93635967/226583230-4715698d-2179-4be4-a118-06a2b5d080ce.jpg)](https://youtu.be/-qO1Mm8DNOc)
 
+<br/><br/>
 This is the same application as https://github.com/mane-ashok/simple-spring-webapp-monolith with the <b>spring boot</b>. Please refer to its https://github.com/mane-ashok/simple-spring-webapp-monolith/blob/main/README.md for the application details.(DRY principle)
 
 <h3>Intent - compare spring application with the spring boot application and understand the difference and how spring boot eases the development</h3>
