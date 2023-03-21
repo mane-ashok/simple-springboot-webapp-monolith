@@ -18,7 +18,7 @@ Spring project uses maven-shade-plugin while spring boot project uses spring-boo
 <b>Spring project opend jar looks like this -</b><br/><br/> ![image](https://user-images.githubusercontent.com/93635967/226105918-de1de9c6-30ae-48af-afe1-2d89b0df2ead.png) <br/><br/>
 It looks like shade plugin merged all the dependency jars along with application classes/objects together in a single jar <br/><br/>
 <b>while spring boot project opened jar looks like this -</b><br/><br/> ![image](https://user-images.githubusercontent.com/93635967/226105996-9a73de7f-e6a7-4b8f-9729-22a92beaa11b.png)<br/><br/>
-In spring boot jar, spring framework dependencies are inside org folder, BOOT-INF folder has application classess/objects plus all other dependencies in lib folder
+In spring boot jar, spring boot loader classes are inside org folder, BOOT-INF folder has application classess/objects plus all the dependencies in lib folder
 <br/><br/>
 <b>Spring project MANIFEST.MF file looks like this -</b><br/><br/>  ![image](https://user-images.githubusercontent.com/93635967/226106717-61a5fede-e17f-497b-8e7a-f700b0873207.png)
 <br/><br/>
